@@ -2,12 +2,12 @@ function TodoItem2() {
   let todoName = "Go to College";
   let todoDate = "03/11/25";
   return (
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-6">{todoName}</div>
-        <div class="col-4">{todoDate} </div>
-        <div class="col-2">
-          <button type="button" class="btn btn-danger">
+    <div className="container">
+      <div className="row my-row">
+        <div className="col-6">{todoName}</div>
+        <div className="col-4">{todoDate} </div>
+        <div className="col-2">
+          <button type="button" class="btn btn-danger  my-button">
             delete
           </button>
         </div>
